@@ -8,71 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7732027-469b-4045-9f9b-85cfe08a2f82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MiVoluntariado1/Controllers/ActividadesController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiVoluntariado1/Controllers/CertificadosController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiVoluntariado1/Controllers/EmpresasController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiVoluntariado1/Controllers/PostulacionesController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiVoluntariado1/Controllers/UsuariosController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiVoluntariado1/DTOs/Auth/LoginDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiVoluntariado1/DTOs/Auth/RegisterEmpresaDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiVoluntariado1/DTOs/Auth/RegisterVoluntarioDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiVoluntariado1/DTOs/Core/ActividadDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiVoluntariado1/DTOs/Core/CertificadoDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiVoluntariado1/DTOs/Core/EmpresaDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiVoluntariado1/DTOs/Core/PostulacionDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiVoluntariado1/DTOs/Core/UsuarioDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiVoluntariado1/Data/AppDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiVoluntariado1/Entities/Actividad.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiVoluntariado1/Entities/Certificado.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiVoluntariado1/Entities/Empresa.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiVoluntariado1/Entities/Postulacion.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiVoluntariado1/Entities/UpdateActividadDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiVoluntariado1/Entities/UpdateEmpresaDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiVoluntariado1/Entities/UpdateUsuarioDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiVoluntariado1/Entities/Usuario.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiVoluntariado1/MiVoluntariado1.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiVoluntariado1/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiVoluntariado1/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Connecta/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Connecta/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Connecta/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Connecta/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MiVoluntariado1.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Connecta.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Connecta.http" beforeDir="false" afterPath="$PROJECT_DIR$/MiVoluntariado1/MiVoluntariado1.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MiVoluntariado1/Controllers/AuthController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Controllers/OpportunitesController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Controllers/OrganizationsController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Controllers/ParticipationsController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Core/Interfaces/IEmailService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Core/Interfaces/IStorageService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Core/Interfaces/ITokenService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Core/Services/CloudinaryService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Core/Services/SendGridService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Core/Services/TokenService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Domain/DTOs/Auth/LoginDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Domain/DTOs/Auth/RegisterDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Domain/DTOs/OpportunityDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Domain/DTOs/OrganizationDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Domain/DTOs/ParticipationDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Domain/Models/ApplicationUser.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Domain/Models/Organization.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Domain/Models/Participation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Domain/Models/VolunteerOpportunity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Helpers/JwtSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Helpers/MappingProfiles.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Helpers/PaginationHelper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Infraestructure/Data/ApplicationDbContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Infraestructure/Repositories/GenericRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Infraestructure/Repositories/IGenericRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MiVoluntariado1/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/MiVoluntariado1/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connecta/appsettings.json" beforeDir="false" />
-    </list>
+    <list default="true" id="b7732027-469b-4045-9f9b-85cfe08a2f82" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,22 +68,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.Connecta: http.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Mikel&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.Connecta: http.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "35-cree-las-carpetas",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Connecta: http">
     <configuration name="Connecta: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MiVoluntariado1/MiVoluntariado1.csproj" />
@@ -193,7 +129,7 @@
       <workItem from="1762820942243" duration="2543000" />
       <workItem from="1762983703043" duration="2904000" />
       <workItem from="1764027135293" duration="164000" />
-      <workItem from="1764028114733" duration="1581000" />
+      <workItem from="1764028114733" duration="2261000" />
     </task>
     <servers />
   </component>
