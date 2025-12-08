@@ -1,6 +1,6 @@
-@Connecta_HostAddress = http://localhost:5004
+@MiVoluntariadoAPI_HostAddress = http://localhost:5182
 
-GET {{Connecta_HostAddress}}/weatherforecast/
+GET {{MiVoluntariadoAPI_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
